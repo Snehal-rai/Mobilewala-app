@@ -1,0 +1,38 @@
+body {
+  background-image: url('');
+}
+
+.background-app-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(45deg, #6a82fb, #fc5c7d, #6a82fb, #fc5c7d); /* Updated color palette */
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  z-index: -1;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+img {
+  width: 250px;
+  height: 150px;
+}
+
+.bold {
+  font-weight: 800;
+}

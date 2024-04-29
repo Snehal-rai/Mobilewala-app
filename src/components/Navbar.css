@@ -1,0 +1,82 @@
+/* Base Styles for Body and Links */
+body {
+    background-color: #f4f4f9; /* Light grey background for a subtle, modern look */
+    color: #333; /* Dark grey color for better readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern and readable font */
+  }
+  
+  .all-products-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0056b3; /* Changed to a soft blue for a more inviting link */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .all-products-link:hover {
+    color: #004494; /* Darker blue on hover for interaction feedback */
+    text-decoration: underline; /* Adds underline on hover for clarity */
+  }
+  
+  .home-link {
+    color: #0056b3; /* Consistent with all product links */
+    text-decoration: none;
+  }
+  
+  .home-link:hover {
+    color: #004494;
+    text-decoration: underline;
+  }
+  
+  .pic {
+    width: 45px;
+    height: 40px;
+  }
+  
+  .dropdown-items {
+    color: #666; /* Slightly lighter for less emphasis */
+    font-size: 1.1em;
+    background-color: #eef0f1; /* Very light background for dropdown items */
+  }
+  
+  .dropdown-items:hover {
+    background-color: #dde1e4; /* Slightly darker on hover for feedback */
+  }
+  
+  .logo-text {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 700;
+    margin: 0; /* Adjust spacing as necessary */
+  }
+  
+  /* Additional styles for enhancement */
+  a {
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+  }
+  
+  /* Utilize space and alignment for a cleaner look */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #dde1e4;
+  }
+  
+  /* Footer styles if necessary */
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    color: #777;
+    border-top: 1px solid #dde1e4;
+  }
+  
